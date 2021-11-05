@@ -2,12 +2,16 @@
   background-color: $footer-bg-color;
   padding-top: 60px;
   padding-bottom: 60px;
-  &-container {
-    display: flex;
-  }
+
   &__adress-list .item:not(:last-child) {
     margin-bottom: 9px;
   }
+}
+.container-footer {
+  @extend %container;
+}
+.footer-container__flex {
+  display: flex;
 }
 .footer__adress-list {
   &__adress {

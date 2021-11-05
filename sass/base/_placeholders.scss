@@ -39,3 +39,13 @@
   padding: 12px;
   transition: background-color 250ms $cubic;
 }
+%hidden {
+  position: absolute;
+  width: 1 px;
+  height: 1 px;
+  margin: -1 px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}

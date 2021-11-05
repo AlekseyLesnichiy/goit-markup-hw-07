@@ -1,4 +1,4 @@
-.header__container, .container-advantages, .container-samples, .container-team, .container-clients {
+.header__container, .container-footer, .container-advantages, .container-samples, .container-team, .container-clients {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
@@ -418,6 +418,10 @@ p {
   margin-bottom: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 .header {
   border-bottom: 1px solid #eeeeee;
   background-color: #ffffff;
@@ -535,14 +539,14 @@ p {
   padding-bottom: 60px;
 }
 
-.footer-container {
+.footer__adress-list .item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.footer-container__flex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-}
-
-.footer__adress-list .item:not(:last-child) {
-  margin-bottom: 9px;
 }
 
 .footer__adress-list__adress {
