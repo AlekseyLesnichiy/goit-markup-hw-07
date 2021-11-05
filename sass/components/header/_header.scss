@@ -2,7 +2,7 @@
   border-bottom: 1px solid $header-border;
   background-color: $white-color;
 }
-.navigate__studio::after {
+.current-page::after {
   @extend %currentPage;
 }
 .header__container {

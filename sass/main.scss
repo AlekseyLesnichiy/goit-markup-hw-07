@@ -1,6 +1,6 @@
+@import "./base/normalize";
 @import "./utils/variables";
 @import "./base/placeholders";
-@import "./base/normalize";
 @import "./base/base_styles";
 @import "./components/header/header";
 @import "./components/shared/logo";
@@ -14,3 +14,5 @@
 @import "./components/studio/clients";
 @import "./components/modal-window/modal";
 @import "./components/modal-window/form";
+@import "./components/portfolio/buttons";
+@import "./components/portfolio/projects-list";
