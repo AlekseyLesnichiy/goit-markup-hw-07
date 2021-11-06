@@ -1,4 +1,4 @@
-.social-container {
+.social__container {
   margin-top: 12px;
   margin-left: 70px;
   &__join {
@@ -13,21 +13,20 @@
     color: $white-color;
   }
 }
-.social-list {
+.social__list {
   display: flex;
-  & .item:not(:last-child) {
+  &__item:not(:last-child) {
     margin-right: 10px;
   }
-}
-
-.circle {
-  @extend %circle;
-  color: $white-color;
-  &:hover,
-  &:focus {
+  &__circle {
+    @extend %circle;
+    color: $white-color;
+  }
+  &__circle:hover,
+  &__circle:focus {
     background-color: $accent-color;
   }
-  &__icon {
+  &__circle__icon {
     width: 20px;
     height: 20px;
     fill: currentColor;

@@ -7,10 +7,10 @@
     margin-bottom: 9px;
   }
 }
-.container-footer {
+.footer__container {
   @extend %container;
 }
-.footer-container__flex {
+.footer__container__flex {
   display: flex;
 }
 .footer__adress-list {

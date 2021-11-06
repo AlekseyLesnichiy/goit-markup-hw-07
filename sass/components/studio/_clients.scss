@@ -1,11 +1,11 @@
-.section-clients {
+.clients__section {
   @extend %section;
   text-align: center;
 }
-.container-clients {
+.clients_container {
   @extend %container;
 }
-.clients-title {
+.clients__title {
   margin-bottom: 50px;
 
   font-weight: 700;
@@ -14,9 +14,9 @@
 
   color: $title-text-color;
 }
-.clients-list {
+.clients__list {
   display: flex;
-  & .item:not(:last-child) {
+  &__item:not(:last-child) {
     margin-right: 30px;
   }
   &__rectangle {

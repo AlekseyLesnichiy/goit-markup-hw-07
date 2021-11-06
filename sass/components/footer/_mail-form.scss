@@ -1,4 +1,4 @@
-.submit-container {
+.submit__container {
   margin-left: 93px;
   width: 576px;
   height: 86px;
@@ -11,7 +11,7 @@
     color: $white-color;
   }
 }
-.submit-container__form {
+.submit__container__form {
   display: flex;
   & input {
     margin-top: 20px;
@@ -26,7 +26,7 @@
     border-radius: 4px;
   }
 }
-.submit-button {
+.submit__button {
   @extend %button;
 
   display: flex;

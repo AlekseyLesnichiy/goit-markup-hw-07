@@ -5,9 +5,20 @@
   padding-right: 15px;
   padding-left: 15px;
 }
+%container-mobile {
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
 %section {
   padding-top: 94px;
   padding-bottom: 94px;
+  background-color: $white-color;
+}
+%section-mobile {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: $white-color;
 }
 %image {
