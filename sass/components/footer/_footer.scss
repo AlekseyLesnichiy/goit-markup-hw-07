@@ -3,7 +3,7 @@
   padding-top: 60px;
   padding-bottom: 60px;
 
-  &__adress-list .item:not(:last-child) {
+  &__list__item:not(:last-child) {
     margin-bottom: 9px;
   }
 }
@@ -13,7 +13,7 @@
 .footer__container__flex {
   display: flex;
 }
-.footer__adress-list {
+.footer__list {
   &__adress {
     color: $white-color;
     line-height: 1.71;

@@ -1,20 +1,20 @@
 .image {
   @extend %image;
 }
-.projects-list {
+.projects__list {
   display: flex;
   flex-wrap: wrap;
-  & .item {
+  &__item {
     width: calc((100% - 60px) / 3);
     margin-right: 30px;
     margin-bottom: 30px;
 
     transition: box-shadow 250ms $cubic;
   }
-  & .item:nth-child(3n) {
+  &__item:nth-child(3n) {
     margin-right: 0;
   }
-  & .item:nth-last-child(-n + 3) {
+  &__item:nth-last-child(-n + 3) {
     margin-bottom: 0;
   }
   &__image-thumb {
@@ -26,7 +26,7 @@
     transform: translateY(0);
   }
 }
-.projects-list__image-hover {
+.projects__list__image-hover {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -46,7 +46,7 @@
   }
 }
 
-.projects-list__image-content {
+.projects__list__image-content {
   padding-left: 24px;
   padding-right: 24px;
   padding-top: 20px;

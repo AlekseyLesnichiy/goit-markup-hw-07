@@ -1,20 +1,20 @@
 .hidden {
   @extend %hidden;
 }
-.section-projects {
+.projects__section {
   @extend %section;
 }
-.container-projects {
+.projects__container {
   @extend %container;
 }
-.button-list {
+.button__list {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
-  & .item:not(:last-child) {
+  &__item:not(:last-child) {
     margin-right: 8px;
   }
-  &__item {
+  &__button {
     display: inline-block;
     border-radius: 4px;
     padding-left: 22px;
@@ -36,8 +36,8 @@
     transition: color 250ms $cubic, background-color 250ms $cubic,
       box-shadow 250ms $cubic;
   }
-  &__item:hover,
-  &__item:focus {
+  &__button:hover,
+  &__button:focus {
     background-color: $accent-color;
     color: $white-color;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
